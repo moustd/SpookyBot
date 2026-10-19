@@ -1,1 +1,6 @@
 hidapi
+paho-mqtt
+numpy
+soundfile
+sounddevice
+scipy
