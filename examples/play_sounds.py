@@ -17,20 +17,20 @@ SOUND_DIRS = {
 
 # Volume per sound (0.0 to 1.0)
 VOLUMES = {
-    "thunder": 0.8,
-    "screams": 0.7,
-    "spooky": 0.4,
+    "thunder": 1,
+    "screams": 1,
+    "spooky": 0.8,
 }
 
 SAMPLE_RATE = 44100
-FADE_IN = 1.0
-FADE_OUT = 3.0
+FADE_IN = 0.5
+FADE_OUT = 0.5
 
 # Delay before each sound starts, in seconds
 DELAYS = {
     "thunder": (0.0, 0.0),
-    "screams": (1.0, 4.0),
-    "spooky": (0.5, 2.0),
+    "screams": (1.0, 2.0),
+    "spooky": (0.8, 1.2),
 }
 
 
